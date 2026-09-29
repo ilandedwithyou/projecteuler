@@ -1,4 +1,4 @@
-with open("0059_cipher.txt", "r") as f:
+with open("data/0059_cipher.txt", "r") as f:
     cipher = list(map(int, f.read().split(",")))
 
 
